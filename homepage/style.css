@@ -5,3 +5,16 @@ body{
 h2{
     color: #1460aa;
 }
+.header{
+
+}
+.header__title{
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.article__title{
+    text-align: center;
+}
