@@ -12,16 +12,34 @@ h2 {
   left: 0;
   right: 0;
   text-align: center;
-
+}
+.navigation__button{
+  display: none;
 }
 .navigation__link {
-
+  
   color: rgb(106, 196, 3);
+}
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__button{
+  width: 200px;
+  height: 30px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
 
-}
 .header__title {
+  display: inline-block;
   text-align: center;
+  padding: 20px;
 }
+
 .main {
   display: flex;
   justify-content: center;
@@ -49,6 +67,32 @@ h2 {
     body{
       background-color: #fffb7d;
       background-image: none;
+    }
+
+    .navigation{
+      position: fixed;
+      display: flex;
+      background-color: white;
+      min-height: 60px;
+      align-items: center;
+    }
+    .navigation__button{
+      height: 60px;
+      width: 60px;
+      display: block;
+    }
+    .navigation__link{
+      padding: 12px;
+      
+    }
+    .navigation__container{
+      display: block;
+    }
+    .navigation__container--js{
+        display: none;
+    }
+    .header{
+      margin-top: 60px
     }
     .article{
       display: flex;
