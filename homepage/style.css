@@ -17,8 +17,10 @@ h2 {
   display: none;
 }
 .navigation__link {
-  
   color: rgb(106, 196, 3);
+}
+.navigation__link:hover{
+    color: gold;
 }
 .header{
   display: flex;
@@ -51,6 +53,7 @@ h2 {
 .article__title {
   text-align: center;
 }
+
 .article__text{
     text-align: center;
 }
